@@ -18,7 +18,7 @@ Repository Structure
 The Docit repository structure consists of the following major child directories:
 *   /docs   : contains all documentation source material and rendered documentation
 *   /tests  : all unit tests and automated tests should be placed here
-*   /lib    : contains modules that are imported by the main executable
+*   /src    : contains modules and source that is imported by the main executable
 
 Branching Methodology
 =====================
