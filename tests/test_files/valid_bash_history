@@ -1,0 +1,9 @@
+docker images ls
+docker pull redis
+docker image ls
+docker run -it --name redis redis:latest
+docker container ls -a
+docker container rm redis
+ls
+cd ~
+ls
