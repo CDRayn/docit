@@ -1,8 +1,7 @@
 """
-This module provides functionality for parsing an ASCII encoded .history_file and generating an in memory object that
-can be searched and evaluated.
+This module provides functionality for parsing an ASCII encoded .history_file and generating an in memory
+object thatcan be searched and evaluated.
 """
-import os
 
 
 class BashHistFile:
