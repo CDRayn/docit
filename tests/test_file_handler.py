@@ -71,5 +71,6 @@ class TestFilePathValidator(unittest.TestCase):
         )
 
 
+# If this module is directly executed, run all its unit tests
 if __name__ == '__main__':
     unittest.main()
