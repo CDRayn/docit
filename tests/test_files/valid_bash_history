@@ -1,4 +1,4 @@
-docker images ls
+docker image ls
 docker pull redis
 docker image ls
 docker run -it --name redis redis:latest

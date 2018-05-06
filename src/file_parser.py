@@ -23,7 +23,7 @@ class BashHistFile:
         This method reads a .bash_history_file and stores each line in a list
         """
         with open(self.file_path, mode='r') as file:
-            data = file.read()
 
-        for line_of_data in data:
-            self.lines.append(line_of_data)
+            for line_of_file in file:
+                stripped_line = line_of_file.replace("\n", "")
+                self.lines.append(stripped_line)
